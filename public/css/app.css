@@ -1,0 +1,44 @@
+.header-container {
+    max-height: 550px;
+    overflow: hidden
+}
+
+.google-play, .app-store {
+    width: 100%;
+}
+
+.app-screenshot {
+    height: 400px;
+}
+
+footer {
+    padding: 25px 0;
+    background-color: #343a40;
+    color: #adb5bd;
+}
+
+footer h5 {
+    color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+    .header-container {
+        height: 1000px;
+        overflow: hidden
+    }
+
+    .google-play, .app-store {
+        margin-top: -25px;
+        width: 100%;
+    }
+
+    .app-screenshot {
+        height: 200px;
+    }
+
+    .card-img {
+        height: 100%;
+        width: 200%;
+    }
+
+  }
